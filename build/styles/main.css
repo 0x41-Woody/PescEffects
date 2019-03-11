@@ -1,3 +1,5 @@
+/* Color Palette */
+/* End Color Palette */
 @font-face {
   font-family: MetalMania;
   src: url("../fonts/MetalMania-Regular.ttf");
@@ -13,8 +15,6 @@
   src: url("../fonts/Quicksand-Regular.ttf");
 }
 
-/* Color Palette */
-/* End Color Palette */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
