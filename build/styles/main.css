@@ -73,14 +73,42 @@ body {
 }
 
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #f9f9f9;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #4C0789;
+  opacity: 0.5;
+  margin: 1em;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  border-radius: 5px;
+}
+
+.header:hover {
+  opacity: 1;
 }
 
 .header a {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.5em;
   text-decoration: none;
+  color: #f9f9f9;
+}
+
+.header a span {
+  display: block;
 }
 
 .navigation {
@@ -88,6 +116,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   list-style-type: none;
+  margin: 0 1em;
 }
 
 .navigation * {
@@ -97,5 +126,10 @@ body {
 .navigation li a {
   display: block;
   padding: 0.5em;
+  margin: 2px 0;
+}
+
+.navigation li a:hover {
+  text-shadow: 2px 2px 40px #f9f9f9;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,7 +1,25 @@
 .header
-    display: flex
-    color: $cp-white
-
-    a
-        text-decoration: none
+    position: fixed
+    left: 0
+    right: 0
+    margin: 0 auto 0 auto
     
+    display: flex
+    justify-content: space-between
+    align-items: center
+    background-color: $cp-dark_purple
+    opacity: 0.5
+    margin: 1em
+    transition-duration: 0.5s
+    border-radius: 5px
+    &:hover
+        opacity: 1
+    a
+        display: block
+        box-sizing: border-box;
+        padding: 0.5em
+        text-decoration: none
+        color: $cp-white
+        span
+            display: block
+        
